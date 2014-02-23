@@ -1,7 +1,9 @@
 require.config({
   paths: {
-    'underscore': 'lib/underscore'
+    'underscore': 'lib/underscore',
+    'text': 'libs/require/text'
   },
+  baseUrl: "app",
   shim: {
     'underscore': {
         exports: '_'
